@@ -6,7 +6,7 @@ gem 'rails', '4.2.5'
 
 # Adding Ruby gem
 
-gem 'ruby', '2.3.4'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -55,5 +55,6 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+
   
 end
